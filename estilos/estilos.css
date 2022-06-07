@@ -1042,6 +1042,12 @@ body{
     width: 100%;
       }
 
+#imagenGaleriaHome :hover{
+transform: scale(1.5);
+transition: all 2s;
+
+}
+
 #imagenGaleriaHome img{
     width: 100%;
     border: solid 2px #fcc732;
