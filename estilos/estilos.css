@@ -1339,9 +1339,10 @@ transition: all 2s;
 }
 
 .contacto{
-    width: 100%;
+    width: 80%;
     margin: auto;
     text-align: center;
+    
       
 }
 
@@ -1353,6 +1354,7 @@ transition: all 2s;
     margin-bottom: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
+    border: #fcc732 solid 2px;
 }
 
 .contactof{

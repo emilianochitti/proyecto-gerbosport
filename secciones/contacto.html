@@ -47,30 +47,22 @@
     <h2 class="tituloscontacto">Contacto</h2>
     <div class="formcontainer">
     <form id="contactof">
-        <div>
-            <label for="nombreyapellido">Ingresá tu nombre y apellido</label>
-            <input type="text" name="nombreyapellido">
-        </div>
-        <div>
-            <label for="email">Ingresá tu dirección de email</label>
-            <input type="email" name="email">
-        </div>
-        <div>
-        <label for="celular">Ingresá tu número de celular</label>
-        <input type="number" name="celular">
-       </div>
-       <div>           
-            <label>¿Sos socio de Gerbo Sport?</label>
-            <label>si</label>
-            <input type="radio" name="socio" value="si">
-            <label>no</label>
-            <input type="radio" name="socio" value="no">
-       </div>
-       <div>
-            <label for="mensaje">Dejanos tu mensaje</label>
-            <input type="text" name="mensaje" >
-       </div>
-       <div>Recibir mas información sobre clases y promociones por mail</div>
+        <div class="mb-3">
+            <label for="nombre" class="form-label">Ingresá tu nombre y apellido</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Nombre y Apellido">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Ingresá tu dirección de email</label>
+            <input type="email" class="form-control" id="email" placeholder="nombre@email.com">
+          </div><div class="mb-3">
+            <label for="celular" class="form-label">Ingresá tu número de celular</label>
+            <input type="tel" class="form-control" id="celular" placeholder="011-1111 1111">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+            <div>Recibir mas información sobre clases y promociones por mail</div>
             <input type="checkbox" name="acepta" value="1">
        <div>
             <input type="submit" value="Enviar Mensaje">
