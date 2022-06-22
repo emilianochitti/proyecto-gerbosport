@@ -17,6 +17,19 @@ body{
     font-family: Montserrat, sans-serif ;
 }
 
+/*Exten en titulos secciones*/
+.titulos--secciones{
+    background-color:#171717;
+    color: #fcc732;
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
 /*****************************MOBILE*********************/
 @media (max-width:500px){
   
@@ -171,14 +184,7 @@ body{
 
 /**Nuestrasede*/
 .nuestrasedetitulo{
-    background-color:#171717;
-    color: #fcc732;
-    font-size: 40px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    @extend .titulos--secciones;
 }
 
 .nuestrasede{
@@ -224,14 +230,7 @@ body{
 /****actividades****/
 
 .actividadestitulo{
-    background-color:#171717;
-    color: #fcc732;
-    font-size: 40px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    @extend .titulos--secciones;
 }
 
 .actividades{
@@ -281,14 +280,7 @@ body{
 /****planes****/
 
 .planestitulo{
-    background-color:#171717;
-    color: #fcc732;
-    font-size: 40px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    @extend .titulos--secciones;
 }
 
 .planes{
@@ -353,14 +345,7 @@ body{
 /****contacto****/
 
 .tituloscontacto{
-    background-color:#171717;
-    color: #fcc732;
-    font-size: 40px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    @extend .titulos--secciones;
 }
 
 .contacto{
@@ -563,14 +548,7 @@ body{
 
 /**Nuestrasede*/
 .nuestrasedetitulo{
-    background-color:#171717;
-    color: #fcc732;
-    font-size: 40px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    @extend .titulos--secciones;
 }
 
 .nuestrasede{
@@ -627,14 +605,7 @@ body{
 /****actividades****/
 
 .actividadestitulo{
-    background-color:#171717;
-    color: #fcc732;
-    font-size: 40px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    @extend .titulos--secciones;
 }
 
 .actividades{
@@ -684,14 +655,7 @@ body{
 /****planes****/
 
 .planestitulo{
-    background-color:#171717;
-    color: #fcc732;
-    font-size: 40px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    @extend .titulos--secciones;
 }
 
 .planes{
@@ -757,14 +721,7 @@ body{
 /****contacto****/
 
 .tituloscontacto{
-    background-color:#171717;
-    color: #fcc732;
-    font-size: 40px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    @extend .titulos--secciones;
 }
 
 .contacto{
@@ -1024,14 +981,7 @@ transition: all 2s;
 
 /**Nuestrasede*/
 .nuestrasedetitulo{
-    background-color:#171717;
-    color: #fcc732;
-    font-size: 40px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    @extend .titulos--secciones;
 }
 
 .nuestrasede{
@@ -1088,14 +1038,7 @@ transition: all 2s;
 /****actividades****/
 
 .actividadestitulo{
-    background-color:#171717;
-    color: #fcc732;
-    font-size: 40px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    @extend .titulos--secciones;
 }
 
 .actividades{
@@ -1147,14 +1090,7 @@ transition: all 2s;
 /****planes****/
 
 .planestitulo{
-    background-color:#171717;
-    color: #fcc732;
-    font-size: 40px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    @extend .titulos--secciones;
 }
 
 .planes{
@@ -1219,14 +1155,7 @@ transition: all 2s;
 /****contacto****/
 
 .tituloscontacto{
-    background-color:#171717;
-    color: #fcc732;
-    font-size: 40px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    @extend .titulos--secciones;
 }
 
 .contacto{
