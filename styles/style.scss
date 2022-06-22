@@ -17,7 +17,7 @@ body{
     font-family: Montserrat, sans-serif ;
 }
 
-/*Exten en titulos secciones*/
+/*Extend en titulos secciones*/
 .titulos--secciones{
     background-color:#171717;
     color: #fcc732;
@@ -56,7 +56,7 @@ body{
     
     .seccion1div1 img{
         width: 50%;
-       }
+    }
     
     .seccion1div2{
            width: 100%;
@@ -65,7 +65,7 @@ body{
         flex-direction: column;
         align-items: center;
         gap: 10px;
-        }
+    }
     
     .seccion1div2 h2{
         color: #fcc732;
@@ -97,12 +97,11 @@ body{
         row-gap: 10px;
         justify-content: space-around;
         padding: 30px;
-       
     }
     
     #imagenGaleriaHome {
         width: 100%;
-          }
+    }
     
     #imagenGaleriaHome img{
         width: 100%;
@@ -152,15 +151,11 @@ body{
         padding-top: 15px;
         padding-bottom: 15px;
         align-items: center;
-         
     }
     
     .logoFooter{
         width: 100%;
         margin: auto;
-       
-      
-        
     }
     
     .logoFooter img{
@@ -185,17 +180,17 @@ body{
 /**Nuestrasede*/
 .nuestrasedetitulo{
     @extend .titulos--secciones;
-}
+    }
 
 .nuestrasede{
     width: 100%;
-}
+    }   
 
 .imagenNuestraSede{
     width: 100%;
     margin: auto;
     text-align: center;
-}
+    }
 
 .imagenNuestraSede img{
     width: 80%;
@@ -209,7 +204,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    }
 
 .tarjetaDireccion h2{
     margin-top: 20px;
@@ -218,26 +213,27 @@ body{
     font-weight: bolder;
     text-transform: uppercase;
     text-align: center;
-}
+    }
 
 .tarjetaDireccion p{
     color: white;
     font-size: 15px;
     text-align: center;
     margin-bottom: 40px;
-}
+    }
 
 /****actividades****/
 
 .actividadestitulo{
     @extend .titulos--secciones;
-}
+    color: green;
+    }
 
 .actividades{
     width: 100%;
     margin-top: 20px;
     margin-bottom: 40px;
-}
+    }
 
 .actividadessection{
     width: 100%;
@@ -247,8 +243,7 @@ body{
     column-gap: 10px;
     row-gap: 10px;
     justify-content: center;
-  
-}
+    }
 
 .tarjetaactividades{
     width: 80%;
@@ -258,23 +253,35 @@ body{
     background-color: white;
     border-radius: 15px;
     text-align: center;
-}
+    }
 
 .tarjetaactividades img{
     width: 100%;
-}
+    }
 
-.tarjetaactividades h2{
+/*MAPAS SASS2*/
+
+$actividades: 
+    "yoga" #fcc632bd ,
+    "boxeo" rgb(255, 208, 0),
+    "zumba" rgb(47, 58, 21),
+    "localizada" rgb(255, 166, 0);
+@each $actividad, $actcolor in $actividades {
+            .clase-#{$actividad}{
+                color: $actcolor;
+            }
+        }
+
+/*.tarjetaactividades h2{
     color: #fcc732;
-    font-size: 40px;
+    font-size: 30px;
     text-transform: uppercase;
     font-weight: 600;
-}
+}*/
 
 .tarjetaactividades p{
     color: #171717;
-    font-size: 20px;
-
+    font-size: 10px;
 }
 
 /****planes****/
@@ -339,7 +346,6 @@ body{
     border-radius: 10px;
     border: 2px solid;
     margin-top: 20px;
-     
 }
 
 /****contacto****/
@@ -365,15 +371,13 @@ body{
     padding-bottom: 30px;
 }
 
-.contactof{
+    .contactof{
     background-color: white;
     width: 100%;
     display: flex;
     flex-direction: column;
     color: black;
-    
-    
-}
+    }
 
 .contactof div {
     margin-top: 15px;
@@ -382,10 +386,11 @@ body{
 
 
 
-    }
-
+}
 
 /*************************TABLET******************/
+@media (max-width:1023px){
+    
 
 /**Section 1**/
 
@@ -641,7 +646,7 @@ body{
 
 .tarjetaactividades h2{
     color: #fcc732;
-    font-size: 40px;
+    font-size: 30px;
     text-transform: uppercase;
     font-weight: 600;
 }
@@ -756,7 +761,7 @@ body{
 }
 
 
-
+}
 
 /*************************DESKTOP******************/
 /*****Header****/
