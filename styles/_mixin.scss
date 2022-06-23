@@ -1,0 +1,9 @@
+@mixin font-sc ($font-s, $color) {
+    font-size: $font-s;
+    color: $color;
+}
+
+$clases:(yoga:#fcc732,
+        boxeo:rgb(11, 83, 165),
+        zumba:blueviolet,
+        localizada:red,);
