@@ -17,8 +17,21 @@ body{
     font-family: Montserrat, sans-serif ;
 }
 
+
+
 /*****************************MOBILE*********************/
 @media (max-width:500px){
+
+    .titulossecciones{
+        background-color:#171717;
+        color: #fcc732;
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    
+    }  
   
     /**Section 1**/
     
@@ -171,14 +184,9 @@ body{
 
 /**Nuestrasede*/
 .nuestrasedetitulo{
-    background-color:#171717;
-    color: #fcc732;
-    font-size: 40px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    @extend .titulossecciones;
+    font-size: 30px;
+   
 }
 
 .nuestrasede{
@@ -224,14 +232,9 @@ body{
 /****actividades****/
 
 .actividadestitulo{
-    background-color:#171717;
-    color: #fcc732;
-    font-size: 40px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    @extend .titulossecciones;
+    font-size: 30px;
+   
 }
 
 .actividades{
@@ -281,14 +284,8 @@ body{
 /****planes****/
 
 .planestitulo{
-    background-color:#171717;
-    color: #fcc732;
-    font-size: 40px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    @extend .titulossecciones;
+    font-size: 30px;
 }
 
 .planes{
@@ -353,14 +350,8 @@ body{
 /****contacto****/
 
 .tituloscontacto{
-    background-color:#171717;
-    color: #fcc732;
-    font-size: 40px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    @extend .titulossecciones;
+    font-size: 30px;
 }
 
 .contacto{
@@ -401,9 +392,19 @@ body{
 
 
 /*************************TABLET******************/
-
+@media (min-width: 501px){
 /**Section 1**/
 
+.titulossecciones-tablet{
+    background-color:#171717;
+    color: #fcc732;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}  
 
 #seccion1Index {
     margin-top: 40px;
@@ -563,14 +564,8 @@ body{
 
 /**Nuestrasede*/
 .nuestrasedetitulo{
-    background-color:#171717;
-    color: #fcc732;
-    font-size: 40px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    @extend .titulossecciones-tablet;
+    font-size: 35px;
 }
 
 .nuestrasede{
@@ -627,14 +622,8 @@ body{
 /****actividades****/
 
 .actividadestitulo{
-    background-color:#171717;
-    color: #fcc732;
-    font-size: 40px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    @extend .titulossecciones-tablet;
+    font-size: 35px;
 }
 
 .actividades{
@@ -684,14 +673,8 @@ body{
 /****planes****/
 
 .planestitulo{
-    background-color:#171717;
-    color: #fcc732;
-    font-size: 40px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    @extend .titulossecciones-tablet;
+    font-size: 35px;
 }
 
 .planes{
@@ -757,14 +740,8 @@ body{
 /****contacto****/
 
 .tituloscontacto{
-    background-color:#171717;
-    color: #fcc732;
-    font-size: 40px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    @extend .titulossecciones-tablet;
+    font-size: 35px;
 }
 
 .contacto{
@@ -799,70 +776,80 @@ body{
 }
 
 
-
+}
 
 /*************************DESKTOP******************/
 /*****Header****/
-@media (min-width:1024px){
+@media (min-width:1024px)
+{
 
+    .titulossecciones-desktop{
+        background-color:#171717;
+        color: #fcc732;
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    
+    }
 
-
-#header{
+    #header{
     background-color: #1f272f;
     width: 100%;
   
-}
+    }
 
-#divLogo{
+    #divLogo{
   
     height: auto;
     text-align: center;
     
-}
+    }
 
-#logoHeader{
+    #logoHeader{
     width: 80%;
     max-width: 600px;
     text-align: center;
     
     
-}
+    }
 
-#navHeader{
+    #navHeader{
     background-color: rgba(32, 32, 32, 0.726);
     border-bottom: 1px solid #fcc732;
     border-top: 2px solid #fcc732;
     margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-}
+    }
 
-#navHeader ul{
+    #navHeader ul{
     display: flex;
     justify-content: center;
     gap: 10px;
     cursor: pointer;
    
-}
+    }
 
-#navHeader ul li {
+    #navHeader ul li {
     list-style: none;
-}
+    }
 
-#navHeader ul li a{
+    #navHeader ul li a{
     text-decoration: none;
     color: white;
     font-size: 20px;
-}
+    }
 
-#navHeader ul li a:hover{
+    #navHeader ul li a:hover{
     color: #fcc732;
 
-}
+    }
 /**Section 1**/
 
 
-#seccion1Index {
+    #seccion1Index {
     margin-top: 60px;
     width: 100%;
     border-top: solid white 4px ;
@@ -872,52 +859,51 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
           
-}
+    }
 
-.seccion1div1{
+    .seccion1div1{
     width: 100%;
     text-align: center;     
-}
+    }
 
-.seccion1div1 img{
+    .seccion1div1 img{
     width: 70%;
-   }
+    }
 
-.seccion1div2{
+    .seccion1div2{
     width: 100%;
     margin:auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px
-    ;
+    gap: 10px;
     }
 
-.seccion1div2 h2{
+    .seccion1div2 h2{
     color: #fcc732;
     font-size: 50px;
     font-weight: 900;
     text-transform: uppercase;
     max-width: 80%;
-}
+    }
 
-.seccion1div2 p{
+    .seccion1div2 p{
     color: white;
     font-size: 20px;
     font-style: italic;
     font-weight: 300;
     max-width: 80%;
-}
+    }
 
 
 
 /***Section 2***/
 
-#section2Index{
+    #section2Index{
     margin-top: 60px;
-}
+    }
 
-#galeriaHome{
+    #galeriaHome{
     /* width:100%; */
     margin: auto;
     display: grid;
@@ -927,29 +913,29 @@ body{
     justify-content: space-around;
     padding: 30px;
    
-}
+    }
 
-#imagenGaleriaHome {
+    #imagenGaleriaHome {
     width: 100%;
       }
 
-#imagenGaleriaHome :hover{
-transform: scale(1.1);
-transition: all 2s;
+    #imagenGaleriaHome :hover{
+    transform: scale(1.1);
+    transition: all 2s;
 
-}
+    }
 
-#imagenGaleriaHome img{
+    #imagenGaleriaHome img{
     width: 100%;
     border: solid 2px #fcc732;
     border-radius: 10px;
-}
+    }
 
 
 
 /**Section 3**/
 
-#section3Index{
+    #section3Index{
     background-color:#fcc732;
     margin-top: 60px;
     margin-bottom: 60px;
@@ -958,31 +944,31 @@ transition: all 2s;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+    }
 
-#section3Index h2{
+    #section3Index h2{
     color: #171717;
     font-size: 60px;
     font-weight:bolder;
     text-transform: uppercase;
     text-align: center;
     width: 90%;
-}
+    }
 
-#section3Index p{
+    #section3Index p{
     color: #1f272f;
     font-size: 20px;
     font-weight: 300;
     font-style: italic;
     text-align: center;
     width: 90%;
-}
+    }
 
 
 
 /******* Footer *******/
 
-#footer{
+    #footer{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -993,82 +979,74 @@ transition: all 2s;
     padding-bottom: 15px;
     align-items: center;
      
-}
+    }
 
-.logoFooter{
+    .logoFooter{
     width: 100%;
     margin: auto;
-   
-  
-    
-}
+      
+    }
 
-.logoFooter img{
+    .logoFooter img{
     width: 40%;
-}
+    }
 
-.redesFooter{
+    .redesFooter{
     width: 100%;
     justify-content: center;
     display: flex;
     flex-direction: row;
     gap: 10px;
     cursor: pointer;
-}
+    }
 
-.redesFooter i{
+    .redesFooter i{
     color:white;
     font-size: 20px;
     justify-content: center;
-}
+    }
 
 /**Nuestrasede*/
-.nuestrasedetitulo{
-    background-color:#171717;
-    color: #fcc732;
-    font-size: 40px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
+    .nuestrasedetitulo{
+    @extend .titulossecciones-desktop;
+    font-size: 45px;
+    }
 
-.nuestrasede{
+    .nuestrasede{
     width: 100%;
     margin-bottom: 30px;
-}
+    }
 
-.nuestrasedesection{
+    .nuestrasedesection{
     width: 100%;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr; 
     
-}
+    }
 
-.imagenNuestraSede{
+    .imagenNuestraSede{
     width: 100%;
     margin: auto;
     text-align: center;
-}
+    }
 
-.imagenNuestraSede img{
+    .imagenNuestraSede img{
     width: 80%;
     border: white 2px solid;
     border-radius: 15px;
     }
 
-.tarjetaDireccion{
+    .tarjetaDireccion{
     width: 80%;
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
-}
+    }
 
-.tarjetaDireccion h2{
+    .tarjetaDireccion h2{
     margin-top: 20px;
     color: #fcc732;
     font-size: 50px;
@@ -1076,36 +1054,30 @@ transition: all 2s;
     text-transform: uppercase;
     text-align: center;
     
-}
+    }
 
-.tarjetaDireccion p{
+    .tarjetaDireccion p{
     color: white;
     font-size: 25px;
     text-align: center;
     margin-bottom: 40px;
-}
+    }
 
 /****actividades****/
 
-.actividadestitulo{
-    background-color:#171717;
-    color: #fcc732;
-    font-size: 40px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
+    .actividadestitulo{
+        @extend .titulossecciones-desktop;
+        font-size: 45px;
+    }
 
-.actividades{
+    .actividades{
     width: 100%;
     margin-top: 20px;
     margin-bottom: 200px;
     
-}
+    }
 
-.actividadessection{
+    .actividadessection{
     width: 100%;
     margin: auto;
     display: grid;
@@ -1114,9 +1086,9 @@ transition: all 2s;
     row-gap: 30px;
     justify-content: center;
   
-}
+    }
 
-.tarjetaactividades{
+    .tarjetaactividades{
     width: 80%;
     margin: auto;
     display: flex;
@@ -1124,46 +1096,40 @@ transition: all 2s;
     background-color: white;
     border-radius: 15px;
     text-align: center;
-}
+    }
 
-.tarjetaactividades img{
+    .tarjetaactividades img{
     width: 100%;
-}
+    }
 
-.tarjetaactividades h2{
+    .tarjetaactividades h2{
     color: #fcc732;
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 800;
-}
+    }
 
-.tarjetaactividades p{
+    .tarjetaactividades p{
     color: #171717;
     font-size: 15px;
     font-weight: 400;
 
-}
+    }
 
 /****planes****/
 
-.planestitulo{
-    background-color:#171717;
-    color: #fcc732;
-    font-size: 40px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
+    .planestitulo{
+        @extend .titulossecciones-desktop;
+        font-size: 45px;
+    }
 
-.planes{
+    .planes{
     width: 100%;
     margin-top: 40px;
     margin-bottom: 200px;
-}
+    }
 
-.planessection{
+    .planessection{
     width: 100%;
     margin: auto;
     display: grid;
@@ -1171,9 +1137,9 @@ transition: all 2s;
     column-gap: 10px;
     row-gap: 10px;
     justify-content: center;
-}
+    }
  
-.tarjetaplanes,.tarjetaplanes2{
+    .tarjetaplanes,.tarjetaplanes2{
     width: 80%;
     margin: auto;
     display: flex;
@@ -1184,27 +1150,27 @@ transition: all 2s;
     padding-bottom: 80px;
     justify-content: center;
     gap: 15px;
-}
-.tarjetaplanes{
+    }
+    .tarjetaplanes{
     background: linear-gradient(184deg, rgba(208,208,208,1) 0%, rgba(255,255,255,1) 35%, rgba(201,201,201,1) 100%);
-}
-.tarjetaplanes2{
+    }
+    .tarjetaplanes2{
     background: linear-gradient(180deg, rgba(255,127,0,1) 0%, rgba(250,255,0,1) 30%, rgba(255,166,0,1) 100%);
-}
+    }
 
-.planessection div h2{
+    .planessection div h2{
     color:#171717;
     font-size: 35px;
     text-transform: uppercase;
     font-weight: 800;
-}
+    }
 
-.planessection div p{
+    .planessection div p{
     color: #171717;
     font-size: 20px;
-}
+    }
 
-.planessection div button{
+    .planessection div button{
     background-color: #171717;
     color: white;
     font-size: 15px;
@@ -1214,30 +1180,25 @@ transition: all 2s;
     border-radius: 10px;
     border: 2px solid;
     margin-top: 20px;
-     
-}
+        
+    }
 /****contacto****/
 
-.tituloscontacto{
-    background-color:#171717;
-    color: #fcc732;
-    font-size: 40px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
+    .tituloscontacto{
+        @extend .titulossecciones-desktop;
+        font-size: 45px;
 
-.contacto{
+    }
+
+    .contacto{
     width: 80%;
     margin: auto;
     text-align: center;
     
       
-}
+    }
 
-.formcontainer{
+    .formcontainer{
     width: 100%;
     background-color: white;
     text-align: center;
@@ -1246,9 +1207,9 @@ transition: all 2s;
     padding-top: 30px;
     padding-bottom: 30px;
     border: #fcc732 solid 2px;
-}
+    }
 
-.contactof{
+    .contactof{
     background-color: white;
     width: 100%;
     display: flex;
@@ -1256,11 +1217,11 @@ transition: all 2s;
     color: black;
     
     
-}
+    }
 
-.contactof div {
+    .contactof div {
     margin-top: 15px;
-}
+    }
 
 
 
