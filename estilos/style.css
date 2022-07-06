@@ -214,6 +214,10 @@ body {
   }
   /***Section 2***/
   #section2Index {
+    background-image: url(../img/ImagenFondoSect2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 40px;
   }
   #galeriaHome {
@@ -222,20 +226,24 @@ body {
     display: grid;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    -webkit-column-gap: 10px;
-            column-gap: 10px;
-    row-gap: 10px;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    /*column-gap: 10px;
+        row-gap: 10px;*/
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   #imagenGaleriaHome {
-    width: 100%;
+    width: 70%;
   }
   #imagenGaleriaHome img {
     width: 100%;
+    height: 100%;
     border: solid 2px #fcc732;
-    border-radius: 10px;
+    border-radius: 50%;
   }
   /**Section 3**/
   #section3Index {
@@ -605,6 +613,10 @@ body {
   }
   /***Section 2***/
   #section2Index {
+    background-image: url(../img/ImagenFondoSect2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 60px;
   }
   #galeriaHome {
@@ -625,9 +637,10 @@ body {
     width: 100%;
   }
   #imagenGaleriaHome img {
-    width: 100%;
+    width: 80%;
+    height: 80%;
     border: solid 2px #fcc732;
-    border-radius: 10px;
+    border-radius: 50%;
   }
   /**Section 3**/
   #section3Index {
@@ -1047,10 +1060,14 @@ body {
   }
   /***Section 2***/
   #section2Index {
+    background-image: url(../img/ImagenFondoSect2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 60px;
   }
   #galeriaHome {
-    /* width:100%; */
+    width: 80%;
     margin: auto;
     display: -ms-grid;
     display: grid;
@@ -1067,21 +1084,22 @@ body {
     width: 100%;
   }
   #imagenGaleriaHome :hover {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
     -webkit-transition: all 2s;
     transition: all 2s;
   }
   #imagenGaleriaHome img {
-    width: 100%;
+    width: 80%;
+    height: 80%;
     border: solid 2px #fcc732;
-    border-radius: 10px;
+    border-radius: 50%;
   }
   /**Section 3**/
   #section3Index {
     background-color: #fcc732;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    /*margin-top: 60px;
+    margin-bottom: 60px;*/
     padding: 20px;
     display: -webkit-box;
     display: -ms-flexbox;

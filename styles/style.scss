@@ -87,6 +87,10 @@ body{
     /***Section 2***/
     
     #section2Index{
+        background-image: url(../img/ImagenFondoSect2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         margin-top: 40px;
     }
     
@@ -94,22 +98,24 @@ body{
         margin: auto;
         display: grid;
         grid-template-columns: 1fr;
-        column-gap: 10px;
-        row-gap: 10px;
-        justify-content: space-around;
+        /*column-gap: 10px;
+        row-gap: 10px;*/
+        justify-content:center;
         padding: 30px;
+        align-items: center;
        
     }
     
     #imagenGaleriaHome {
-        width: 100%;
-          }
+        width: 70%;
+          
     
-    #imagenGaleriaHome img{
+     img{
         width: 100%;
+        height: 100%;
         border: solid 2px #fcc732;
-        border-radius: 10px;
-    }
+        border-radius: 50%;
+        }}
     
     /**Section 3**/
     
@@ -469,6 +475,10 @@ body{
 /***Section 2***/
 
 #section2Index{
+    background-image: url(../img/ImagenFondoSect2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 60px;
 }
 
@@ -486,13 +496,15 @@ body{
 
 #imagenGaleriaHome {
     width: 100%;
-      }
+      
 
-#imagenGaleriaHome img{
-    width: 100%;
-    border: solid 2px #fcc732;
-    border-radius: 10px;
-}
+img{
+        width: 80%;
+        height: 80%;
+        border: solid 2px #fcc732;
+        border-radius: 50%;
+        
+}}
 
 
 
@@ -916,11 +928,15 @@ body{
 /***Section 2***/
 
     #section2Index{
+    background-image: url(../img/ImagenFondoSect2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 60px;
-    }
+}
 
     #galeriaHome{
-    /* width:100%; */
+    width: 80%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -936,15 +952,16 @@ body{
       }
 
     #imagenGaleriaHome :hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition: all 2s;
 
     }
 
     #imagenGaleriaHome img{
-    width: 100%;
+    width: 80%;
+    height: 80%;
     border: solid 2px #fcc732;
-    border-radius: 10px;
+    border-radius: 50%;
     }
 
 
@@ -953,8 +970,8 @@ body{
 
     #section3Index{
     background-color:#fcc732;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    /*margin-top: 60px;
+    margin-bottom: 60px;*/
     padding: 20px;
     display: flex;
     flex-direction: column;
