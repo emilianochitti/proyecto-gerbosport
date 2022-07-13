@@ -294,73 +294,72 @@ body{
 
 /****planes****/
 
-.planestitulo{
-    @extend .titulossecciones;
-    font-size: 30px;
-}
+// .planestitulo{
+//     @extend .titulossecciones;
+//     font-size: 30px;
+// }
 
-.planes{
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
+// .planes{
+//     width: 100%;
+//     margin-top: 20px;
+//     margin-bottom: 40px;
+// }
 
-.planessection{
-    width: 80%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    column-gap: 10px;
-    row-gap: 10px;
-    justify-content: center;
-}
-.tarjetaplanes, .tarjetaplanes2{
-    width: 300px;
-    background-color: #1f272f;
-    margin: auto;
-    display: flex;
-    flex-direction:column;
-    gap: 10px;
-    border: solid 1px black;
-    border-radius: 10px;
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    box-shadow: black;
+// .planessection{
+//     width: 80%;
+//     margin: auto;
+//     display: grid;
+//     grid-template-columns: 1fr;
+//     column-gap: 10px;
+//     row-gap: 10px;
+//     justify-content: center;
+// }
+// .tarjetaplanes{
+//     width: 300px;
+//     background-color: #1f272f;
+//     margin: auto;
+//     display: flex;
+//     flex-direction:column;
+//     gap: 10px;
+//     border: solid 1px black;
+//     border-radius: 10px;
+//     text-align: center;
+//     padding-top: 80px;
+//     padding-bottom: 80px;
+//     box-shadow: black;
     
-    }
+//     }
 
-    .planessection div h2{
-    @include font-sc (25px, white);    
-    text-transform: uppercase;
-    font-weight: 800;
-    }
+//     .planessection div h2{
+//     @include font-sc (25px, white);    
+//     text-transform: uppercase;
+//     font-weight: 800;
+//     }
 
-    .planessection div p{
-        @include font-sc (15px, white);   
-    }
+//     .planessection div p{
+//         @include font-sc (15px, white);   
+//     }
 
    
 
-    .btn-pagar{
-    text-align: center;
-    color: white;
-    font-size: 15px;
-    font-weight: 400;
-    text-align: center;
-    padding: 10px;
-    border-radius: 5px;
-    margin: auto;
-    width: 150px;
-    cursor: pointer;
-    background-color: #fcc732;
-    text-decoration: none;
+//     .btn-pagar{
+//     text-align: center;
+//     color: white;
+//     font-size: 15px;
+//     font-weight: 400;
+//     padding: 10px;
+//     border-radius: 5px;
+//     // margin: auto;
+//     width: 150px;
+//     cursor: pointer;
+//     background-color: #fcc732;
+//     text-decoration: none;
 
-        &:hover{
-            background-color: transparent;
-            border: 1px solid white;
-        }
-    }
+//         &:hover{
+//             background-color: transparent;
+//             border: 1px solid white;
+//         }
+//     }
 
 
 /****contacto****/
@@ -698,73 +697,73 @@ img{
 
 /****planes****/
 
-.planestitulo{
-    @extend .titulossecciones-tablet;
-    font-size: 35px;
-}
+// .planestitulo{
+//     @extend .titulossecciones-tablet;
+//     font-size: 35px;
+// }
 
-.planes{
-    width: 100%;
-    margin-top: 40px;
-    margin-bottom: 200px;
-}
+// .planes{
+//     width: 100%;
+//     margin-top: 40px;
+//     margin-bottom: 200px;
+// }
 
-.planessection{
-    width: 80%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    column-gap: 10px;
-    row-gap: 10px;
-    justify-content: center;
-}
-.tarjetaplanes, .tarjetaplanes2{
-    width: 200px;
-    background-color: #1f272f;
-    margin: auto;
-    display: flex;
-    flex-direction:column;
-    gap: 10px;
-    border: solid 1px black;
-    border-radius: 10px;
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    box-shadow: black;
+// .planessection{
+//     width: 80%;
+//     margin: auto;
+//     display: grid;
+//     grid-template-columns: repeat(3,1fr);
+//     column-gap: 10px;
+//     row-gap: 10px;
+//     justify-content: center;
+// }
+// .tarjetaplanes, .tarjetaplanes2{
+//     width: 200px;
+//     background-color: #1f272f;
+//     margin: auto;
+//     display: flex;
+//     flex-direction:column;
+//     gap: 10px;
+//     border: solid 1px black;
+//     border-radius: 10px;
+//     text-align: center;
+//     padding-top: 80px;
+//     padding-bottom: 80px;
+//     box-shadow: black;
     
-    }
+//     }
 
-    .planessection div h2{
-    @include font-sc (25px, white);    
-    text-transform: uppercase;
-    font-weight: 800;
-    }
+//     .planessection div h2{
+//     @include font-sc (25px, white);    
+//     text-transform: uppercase;
+//     font-weight: 800;
+//     }
 
-    .planessection div p{
-        @include font-sc (15px, white);   
-    }
+//     .planessection div p{
+//         @include font-sc (15px, white);   
+//     }
 
    
 
-    .btn-pagar{
-    text-align: center;
-    color: white;
-    font-size: 15px;
-    font-weight: 400;
-    text-align: center;
-    padding: 10px;
-    border-radius: 5px;
-    margin: auto;
-    width: 150px;
-    cursor: pointer;
-    background-color: #fcc732;
-    text-decoration: none;
+//     .btn-pagar{
+//     text-align: center;
+//     color: white;
+//     font-size: 15px;
+//     font-weight: 400;
+//     text-align: center;
+//     padding: 10px;
+//     border-radius: 5px;
+//     margin: auto;
+//     width: 150px;
+//     cursor: pointer;
+//     background-color: #fcc732;
+//     text-decoration: none;
 
-        &:hover{
-            background-color: transparent;
-            border: 1px solid white;
-        }
-    }
+//         &:hover{
+//             background-color: transparent;
+//             border: 1px solid white;
+//         }
+//     }
 
 
 /****contacto****/
@@ -1079,9 +1078,9 @@ img{
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    }
+    
 
-    .tarjetaDireccion h2{
+    h2{
     margin-top: 20px;
     color: #fcc732;
     font-size: 50px;
@@ -1091,12 +1090,25 @@ img{
     
     }
 
-    .tarjetaDireccion p{
+    p{
     color: white;
     font-size: 25px;
     text-align: center;
     margin-bottom: 40px;
     }
+
+    .div-mapa{
+        width: 100%;
+            
+    .mapa{
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+        
+    }
+    }
+    }
+
 
 /****actividades****/
 
@@ -1158,73 +1170,97 @@ img{
 
 /****planes****/
 
-    .planestitulo{
-        @extend .titulossecciones-desktop;
-        font-size: 45px;
-    }
+     .planestitulo{
+         @extend .titulossecciones-desktop;
+         font-size: 45px;
+     }
 
-    .planes{
-    width: 100%;
-    margin-top: 40px;
-    margin-bottom: 200px;
-    }
+     .planes{
+     width: 100%;
+     margin-top: 40px;
+     margin-bottom: 200px;
+     }
 
-    .planessection{
-    width: 80%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: center;
-    }
+     .planessection{
+     width: 80%;
+     margin: auto;
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     justify-content: center;
+     }
  
-    .tarjetaplanes, .tarjetaplanes2{
-    width: 300px;
-    background-color: #1f272f;
-    margin: auto;
-    display: flex;
-    flex-direction:column;
-    border: solid 1px black;
-    border-radius: 10px;
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    box-shadow: black;
+    .tarjetaplanes{
+     width: 300px;
+     height: 400px;
+     background-color: #1f272f;
+     margin: auto;
+     display: flex;
+     gap: 30px;
+     justify-content: center;
+     flex-direction:column;
+     border: solid 1px black;
+     border-radius: 10px;
+     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: black 2px;
+
+    &:hover{
+    border:#fcc732 solid 2px;
+    }
     
     }
 
     .planessection div h2{
-    @include font-sc (25px, white);    
+     @include font-sc (25px, white);    
     text-transform: uppercase;
-    font-weight: 800;
+     font-weight: 600;
     }
 
-    .planessection div p{
-        @include font-sc (15px, white);   
-    }
+     .planessection div p{
+     @include font-sc (15px, white);   
+     }
 
    
 
-    .btn-pagar{
-    text-align: center;
-    color: white;
-    font-size: 15px;
-    font-weight: 400;
-    text-align: center;
-    padding: 10px;
-    border-radius: 5px;
-    margin: auto;
+     .btn-pagar{
+     text-align: center;
+        color: white;
+     font-size: 15px;
+     font-weight: 400;
+     text-align: center;
+     padding: 10px;
+     border-radius: 5px;
+    margin-left:auto;
+    margin-right: auto;
     width: 150px;
-    cursor: pointer;
-    background-color: #fcc732;
-    text-decoration: none;
+     cursor: pointer;
+     background-color: #fcc732;
+     text-decoration: none;
 
-        &:hover{
-            background-color: transparent;
-            border: 1px solid white;
-        }
-    }
+         &:hover{
+             background-color: transparent;
+         border: 1px solid white;
+       }
+   }
 
-   
+   .aclaracion-pagos{
+       width: 100%;
+       margin-top: 20px;
+        text-align: center;
+       p{
+           font-size: 20px;
+           color:white;
+           font-weight: bold;
+           font-style: italic
+        
+           a{
+               text-decoration: none;
+               
+           }
+           
+       }
+   }
 
    
 
