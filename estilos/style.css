@@ -153,7 +153,7 @@ body {
 
 /*****************************MOBILE*********************/
 @media (max-width: 500px) {
-  .titulossecciones, .nuestrasedetitulo, .actividadestitulo, .planestitulo, .tituloscontacto {
+  .titulossecciones, .actividadestitulo, .planestitulo, .tituloscontacto {
     background-color: #171717;
     color: #fcc732;
     font-weight: bolder;
@@ -329,50 +329,53 @@ body {
             justify-content: center;
   }
   /**Nuestrasede*/
-  .nuestrasedetitulo {
+  /*
+.nuestrasedetitulo{
+    @extend .titulossecciones;
     font-size: 30px;
-  }
-  .nuestrasede {
+   
+}
+
+.nuestrasede{
     width: 100%;
-  }
-  .imagenNuestraSede {
+}
+
+.imagenNuestraSede{
     width: 100%;
     margin: auto;
     text-align: center;
-  }
-  .imagenNuestraSede img {
+}
+
+.imagenNuestraSede img{
     width: 80%;
     border: white 2px solid;
     border-radius: 15px;
-  }
-  .tarjetaDireccion {
+    }
+
+.tarjetaDireccion{
     width: 80%;
     margin: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .tarjetaDireccion h2 {
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjetaDireccion h2{
     margin-top: 20px;
     color: #fcc732;
     font-size: 30px;
     font-weight: bolder;
     text-transform: uppercase;
     text-align: center;
-  }
-  .tarjetaDireccion p {
+}
+
+.tarjetaDireccion p{
     color: white;
     font-size: 15px;
     text-align: center;
     margin-bottom: 40px;
-  }
+}
+*/
   /****actividades****/
   .actividadestitulo {
     font-size: 30px;
@@ -604,7 +607,7 @@ body {
 /*************************TABLET******************/
 @media (min-width: 501px) {
   /**Section 1**/
-  .titulossecciones-tablet, .nuestrasedetitulo, .actividadestitulo, .planestitulo, .tituloscontacto {
+  .titulossecciones-tablet, .actividadestitulo, .planestitulo, .tituloscontacto {
     background-color: #171717;
     color: #fcc732;
     font-weight: bolder;
@@ -781,60 +784,63 @@ body {
             justify-content: center;
   }
   /**Nuestrasede*/
-  .nuestrasedetitulo {
+  /*
+.nuestrasedetitulo{
+    @extend .titulossecciones-tablet;
     font-size: 35px;
-  }
-  .nuestrasede {
+}
+
+.nuestrasede{
     width: 100%;
     margin-bottom: 30px;
-  }
-  .nuestrasedesection {
+}
+
+.nuestrasedesection{
     width: 100%;
     margin: auto;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-  }
-  .imagenNuestraSede {
+    grid-template-columns: 1fr 1fr; 
+    
+}
+
+.imagenNuestraSede{
     width: 100%;
     margin: auto;
     text-align: center;
-  }
-  .imagenNuestraSede img {
+}
+
+.imagenNuestraSede img{
     width: 80%;
     border: white 2px solid;
     border-radius: 15px;
-  }
-  .tarjetaDireccion {
+    }
+
+.tarjetaDireccion{
     width: 80%;
     margin: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
     gap: 15px;
-  }
-  .tarjetaDireccion h2 {
+}
+
+.tarjetaDireccion h2{
     margin-top: 20px;
     color: #fcc732;
     font-size: 50px;
     font-weight: bolder;
     text-transform: uppercase;
     text-align: center;
-  }
-  .tarjetaDireccion p {
+    
+}
+
+.tarjetaDireccion p{
     color: white;
     font-size: 25px;
     text-align: center;
     margin-bottom: 40px;
-  }
+}
+*/
   /****actividades****/
   .actividadestitulo {
     font-size: 35px;
@@ -1299,59 +1305,50 @@ body {
     margin-bottom: 30px;
   }
   .nuestrasedesection {
-    width: 100%;
+    width: 80%;
     margin: auto;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
   .imagenNuestraSede {
     width: 100%;
     margin: auto;
     text-align: center;
   }
-  .imagenNuestraSede img {
-    width: 80%;
-    border: white 2px solid;
-    border-radius: 15px;
-  }
-  .tarjetaDireccion {
-    width: 80%;
-    margin: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    gap: 15px;
-  }
-  .tarjetaDireccion h2 {
-    margin-top: 20px;
+  .imagenNuestraSede h2 {
     color: #fcc732;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: bolder;
     text-transform: uppercase;
     text-align: center;
   }
-  .tarjetaDireccion p {
+  .imagenNuestraSede div {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .imagenNuestraSede div p {
     color: white;
     font-size: 25px;
     text-align: center;
-    margin-bottom: 40px;
   }
-  .tarjetaDireccion .div-mapa {
+  .imagenNuestraSede div img {
+    width: 100%;
+    margin: auto;
+  }
+  .div-mapa {
     width: 100%;
   }
-  .tarjetaDireccion .div-mapa .mapa {
-    width: 100%;
-    height: auto;
-    padding-bottom: 40px;
+  .div-mapa .mapa {
+    width: 80%;
+    height: 400px;
+    margin: auto;
   }
   /****actividades****/
   .actividadestitulo {
