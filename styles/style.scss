@@ -191,53 +191,79 @@ body{
     }
 
 /**Nuestrasede*/
-/*
+
+.nuestrasede{
+    width: 100%;
+    height: auto
+}
+
 .nuestrasedetitulo{
     @extend .titulossecciones;
     font-size: 30px;
    
 }
 
-.nuestrasede{
-    width: 100%;
-}
 
-.imagenNuestraSede{
-    width: 100%;
-    margin: auto;
-    text-align: center;
-}
-
-.imagenNuestraSede img{
-    width: 80%;
-    border: white 2px solid;
-    border-radius: 15px;
-    }
-
-.tarjetaDireccion{
+.nuestrasedesection{
     width: 80%;
     margin: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 15px;
+    
 }
 
-.tarjetaDireccion h2{
-    margin-top: 20px;
+.div-map{
+    border:#fcc732 solid 5px;
+    width: 80%;
+    margin: auto;
+.mapa{
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    width: 100%;
+    height: 300px;
+}
+}
+
+
+.div-infosede{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+
+h2{
+    
     color: #fcc732;
-    font-size: 30px;
-    font-weight: bolder;
+    font-size: 20px;
+    font-weight: 300;
     text-transform: uppercase;
     text-align: center;
+    
+    }
+
+h4{
+    color: #fcc732;
+    font-size: 15px;
+    
 }
 
-.tarjetaDireccion p{
-    color: white;
-    font-size: 15px;
-    text-align: center;
-    margin-bottom: 40px;
+p{
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        }
+    
+    
 }
-*/
+    
+
+
 /****actividades****/
 
 .actividadestitulo{
@@ -368,6 +394,8 @@ font-size: 30px;
      }
      .aclaracion-pagos{
         width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
         margin-top: 20px;
          text-align: center;
         p{
@@ -640,63 +668,76 @@ img{
 }
 
 /**Nuestrasede*/
-/*
-.nuestrasedetitulo{
-    @extend .titulossecciones-tablet;
-    font-size: 35px;
-}
 
 .nuestrasede{
     width: 100%;
     margin-bottom: 30px;
 }
 
+.nuestrasedetitulo{
+    @extend .titulossecciones-tablet;
+    font-size: 35px;
+}
+
 .nuestrasedesection{
-    width: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    
-}
-
-.imagenNuestraSede{
-    width: 100%;
-    margin: auto;
-    text-align: center;
-}
-
-.imagenNuestraSede img{
-    width: 80%;
-    border: white 2px solid;
-    border-radius: 15px;
-    }
-
-.tarjetaDireccion{
     width: 80%;
     margin: auto;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-}
-
-.tarjetaDireccion h2{
-    margin-top: 20px;
-    color: #fcc732;
-    font-size: 50px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
+    flex-direction: row;
     
 }
 
-.tarjetaDireccion p{
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    margin-bottom: 40px;
+.div-map{
+    border:#fcc732 solid 5px;
+    width: 80%;
+    margin: auto;
+.mapa{
+    margin-left: -10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    width: 100%;
+    height: 300px;
 }
-*/
+}
+
+.div-infosede{
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+
+h2{
+    
+    color: #fcc732;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    
+    }
+
+h4{
+    color: #fcc732;
+    font-size: 15px;
+    
+}
+
+p{
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        }
+    
+    
+}
+
+
+
 /****actividades****/
 
 .actividadestitulo{
@@ -1153,71 +1194,80 @@ border: 1px solid white;
     }
 
 /**Nuestrasede*/
-    .nuestrasedetitulo{
+.nuestrasede{
+    width: 100%;
+    margin-bottom: 30px;
+    }    
+
+.nuestrasedetitulo{
     @extend .titulossecciones-desktop;
     font-size: 45px;
     }
 
-    .nuestrasede{
-    width: 100%;
-    margin-bottom: 30px;
-    }
-
+    
     .nuestrasedesection{
     width: 80%;
     margin: auto;
     display: flex;
     flex-direction: row; 
-    
     }
 
-    .imagenNuestraSede{
-    width: 100%;
-    margin: auto;
-    text-align: center;
+    .div-map{
+        border:#fcc732 solid 5px;
+        width: 80%;
+        margin: auto;
+    .mapa{
+        margin-left: -10%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-right: 10%;
+        width: 100%;
+        height: 300px;
+    }
+    }
 
+    .div-infosede{
+        width: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 10px;
+    
     h2{
         
         color: #fcc732;
-        font-size: 35px;
-        font-weight: bolder;
+        font-size: 40px;
+        font-weight: 300;
         text-transform: uppercase;
         text-align: center;
         
         }
-    
-    div{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
 
-        p{
+    h4{
+        color: #fcc732;
+        font-size: 20px;
+        
+    }
+    
+    p{
             color: white;
             font-size: 25px;
             text-align: center;
             }
         
-        img{
-            width: 100%;
-            margin: auto;
-            }
-    }
+        
     }
 
     
        
 
-    .div-mapa{
-        width: 100%;
-            
-    .mapa{
-        width: 80%;
-        height: 400px;
-        margin: auto
-       
+        
         
     
-    }
-    }
+    
 
 
 /****actividades****/
