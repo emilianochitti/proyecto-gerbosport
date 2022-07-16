@@ -566,7 +566,6 @@ div {
 }
 
 #galeriaHome{
-    /* width:100%; */
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1124,8 +1123,6 @@ border: 1px solid white;
 
     #section3Index{
     background-color:#fcc732;
-    /*margin-top: 60px;
-    margin-bottom: 60px;*/
     padding: 20px;
     display: flex;
     flex-direction: column;
